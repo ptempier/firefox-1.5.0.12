@@ -5,3 +5,7 @@ Old encryptions have been removed from browser, so now it's not possible to conn
 
 run with
 docker run -e DISPLAY=:0 -v /tmp/.X11-unix:/tmp/.X11-unix --net host -it firefox-drac firefox --display=:0
+
+
+.... I would push the already built image to https://ghcr.io
+But the image is 1.1G and the fre limit is at 500Mb
