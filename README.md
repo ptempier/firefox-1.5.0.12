@@ -8,4 +8,4 @@ docker run -e DISPLAY=:0 -v /tmp/.X11-unix:/tmp/.X11-unix --net host -it firefox
 
 
 .... I would push the already built image to https://ghcr.io
-But the image is 1.1G and the fre limit is at 500Mb
+But the image is 1.1G and the free limit is at 500Mb
